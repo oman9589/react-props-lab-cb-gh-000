@@ -13,6 +13,6 @@ ReactDOM.render(
   <Spaceship name="Millennium Falcon"
              speed="slow"
              hasRockets='false'
-             colors=['black', 'red'] />,
+             colors="['black', 'red']" />,
   document.getElementById('root')
 );
