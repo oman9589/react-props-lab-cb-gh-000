@@ -9,12 +9,12 @@ Spaceship.defaultProps = {
   colors: ['black', 'red']
 }
 
-const test = ['black', 'red']
+const test = ['black', 'red'];
 
 ReactDOM.render(
   <Spaceship name="Millennium Falcon"
              speed="slow"
              hasRockets='false'
-             colors=test />,
+             colors={test} />,
   document.getElementById('root')
 );
