@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Spaceship extends React.Component {
-  static defaultProps = {
+  defaultProps = {
     speed: 'slow',
     hasRockets: false,
     colors: ['black', 'red'],
