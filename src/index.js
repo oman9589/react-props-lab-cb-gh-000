@@ -5,7 +5,7 @@ import Spaceship from './components/Spaceship';
 
 Spaceship.defaultProps = {
   speed: 'slow',
-  hasRockets: 'false',
+  hasRockets: false,
   colors: ['black', 'red']
 }
 
