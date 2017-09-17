@@ -9,9 +9,7 @@ class Spaceship extends React.Component {
         <p>{this.props.hasRockets}</p>
         <ul>
           {this.props.map((color) =>
-            <li>
-              {color}
-            </li>)};
+            <li>{color}</li>)};
         </ul>
       </div>
     )
