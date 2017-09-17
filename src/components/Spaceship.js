@@ -8,10 +8,10 @@ class Spaceship extends React.Component {
         <p>{this.props.speed}</p>
         <p>{this.props.hasRockets}</p>
         <ul>
-          {this.props.map((color) => 
-            <li> key={color.id}> 
+          {this.props.map((color) =>
+            <li> key={color.id}>
               {color}
-            </li>)}
+            </li>)};
         </ul>
       </div>
     )
