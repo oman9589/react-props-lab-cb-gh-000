@@ -10,9 +10,6 @@ Spaceship.defaultProps = {
 }
 
 ReactDOM.render(
-  <Spaceship name="Millennium Falcon"
-             speed="slow"
-             hasRockets='false'
-             colors={test} />,
+  <Spaceship name="Millennium Falcon" />
   document.getElementById('root')
 );
