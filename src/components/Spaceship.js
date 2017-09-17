@@ -1,6 +1,12 @@
 import React from 'react';
 
 class Spaceship extends React.Component {
+  static defaultProps = {
+    speed: 'slow',
+    hasRockets: false,
+    colors: ['black', 'red']
+  }
+
   render() {
     return (
       <div className='spaceship'>
