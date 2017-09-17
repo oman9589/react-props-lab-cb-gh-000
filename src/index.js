@@ -5,8 +5,8 @@ import Spaceship from './components/Spaceship';
 
 Spaceship.defaultProps = {
   speed: 'slow',
-  hasRockets: 'false',
-  colors: "['black', 'red']"
+  hasRockets: false,
+  colors: ['black', 'red']
 }
 
 ReactDOM.render(
